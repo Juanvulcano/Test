@@ -1,6 +1,6 @@
 To run the Dockerized version of the question generator 2 it's necessary to have Docker installed in your machine.
 
-# Install Docker:
+# Installing Docker:
 
 ## Instructions on macOS:
 
@@ -9,16 +9,22 @@ Docker for Mac offers a Mac native application that installs in /Applications. I
 The Docker for Mac bundle installs:
 
 Docker Engine
+
 Docker CLI Client
+
 Docker Compose
+
 Docker Machine
 
 ## Mac Requirements
 
 
 The Mac has to be from 2010 or newer, with Intel’s hardware Memory Management Unit (MMU).
+
 OS X 10.10.3 Yosemite or newer (or macOS).
+
 At least 4 GB of RAM.
+
 You must not have a VirtualBox installation earlier than version 4.3.30 on your system. If you do, you’ll need to uninstall it.
 
 ## Installation:
@@ -34,7 +40,9 @@ You can access settings and other options from the whale in the status bar. a. S
 Verify your versions:
 
 $ docker --version
+
 $ docker-compose --version
+
 $ docker-machine --version
 
 Run a Dockerized web server to make sure everything works:
